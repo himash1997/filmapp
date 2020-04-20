@@ -8,7 +8,6 @@ target 'Film App' do
   # Pods for Film App
   pod 'SwiftyJSON'
   pod 'Alamofire'
-  pod 'SVProgressHUD'
   pod 'SDWebImage'
   pod 'RxSwift'
   pod 'RxCocoa'

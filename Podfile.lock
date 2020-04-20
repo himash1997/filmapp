@@ -9,7 +9,6 @@ PODS:
   - SDWebImage (5.7.2):
     - SDWebImage/Core (= 5.7.2)
   - SDWebImage/Core (5.7.2)
-  - SVProgressHUD (2.2.5)
   - SwiftyJSON (5.0.0)
 
 DEPENDENCIES:
@@ -17,7 +16,6 @@ DEPENDENCIES:
   - RxCocoa
   - RxSwift
   - SDWebImage
-  - SVProgressHUD
   - SwiftyJSON
 
 SPEC REPOS:
@@ -27,7 +25,6 @@ SPEC REPOS:
     - RxRelay
     - RxSwift
     - SDWebImage
-    - SVProgressHUD
     - SwiftyJSON
 
 SPEC CHECKSUMS:
@@ -36,9 +33,8 @@ SPEC CHECKSUMS:
   RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
   RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
   SDWebImage: d9ea4959d99c52276dfada481987018fcaea3d58
-  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
 
-PODFILE CHECKSUM: 78dd4960bf42c1a3e642091e53acca0d3ed7e1c9
+PODFILE CHECKSUM: ebc1173b149623d463f794d8b1f52dd02493cf30
 
 COCOAPODS: 1.9.0
