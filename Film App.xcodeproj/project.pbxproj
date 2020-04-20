@@ -14,7 +14,6 @@
 		F3E6AB9E244C08E600FAEA52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3E6AB9C244C08E600FAEA52 /* Main.storyboard */; };
 		F3E6ABA0244C08E900FAEA52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3E6AB9F244C08E900FAEA52 /* Assets.xcassets */; };
 		F3E6ABA3244C08E900FAEA52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3E6ABA1244C08E900FAEA52 /* LaunchScreen.storyboard */; };
-		F3E6ABAE244C08E900FAEA52 /* Film_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E6ABAD244C08E900FAEA52 /* Film_AppTests.swift */; };
 		F3E6ABBD244C100900FAEA52 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E6ABBC244C100900FAEA52 /* TableViewCell.swift */; };
 		F3E6ABBF244C134300FAEA52 /* FilmDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E6ABBE244C134300FAEA52 /* FilmDataModel.swift */; };
 		F3E6ABC1244C138800FAEA52 /* SendRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E6ABC0244C138800FAEA52 /* SendRequest.swift */; };
@@ -44,8 +43,6 @@
 		F3E6ABA2244C08E900FAEA52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3E6ABA4244C08E900FAEA52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3E6ABA9244C08E900FAEA52 /* Film AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Film AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3E6ABAD244C08E900FAEA52 /* Film_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film_AppTests.swift; sourceTree = "<group>"; };
-		F3E6ABAF244C08E900FAEA52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3E6ABBC244C100900FAEA52 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		F3E6ABBE244C134300FAEA52 /* FilmDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmDataModel.swift; sourceTree = "<group>"; };
 		F3E6ABC0244C138800FAEA52 /* SendRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendRequest.swift; sourceTree = "<group>"; };
@@ -92,7 +89,6 @@
 			isa = PBXGroup;
 			children = (
 				F3E6AB95244C08E600FAEA52 /* Film App */,
-				F3E6ABAC244C08E900FAEA52 /* Film AppTests */,
 				F3E6AB94244C08E600FAEA52 /* Products */,
 				D12AF46A65A16F22D68C1A3C /* Pods */,
 				E0218224BD4243D743945A4A /* Frameworks */,
@@ -122,15 +118,6 @@
 				F3E6ABA4244C08E900FAEA52 /* Info.plist */,
 			);
 			path = "Film App";
-			sourceTree = "<group>";
-		};
-		F3E6ABAC244C08E900FAEA52 /* Film AppTests */ = {
-			isa = PBXGroup;
-			children = (
-				F3E6ABAD244C08E900FAEA52 /* Film_AppTests.swift */,
-				F3E6ABAF244C08E900FAEA52 /* Info.plist */,
-			);
-			path = "Film AppTests";
 			sourceTree = "<group>";
 		};
 		F3E6ABB8244C0A4900FAEA52 /* Model */ = {
@@ -326,7 +313,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3E6ABAE244C08E900FAEA52 /* Film_AppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

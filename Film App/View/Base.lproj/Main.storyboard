@@ -101,8 +101,8 @@
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N9i-tY-nLB">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                 <items>
-                                    <navigationItem title="My Movies" id="sYT-c0-6PL">
-                                        <barButtonItem key="rightBarButtonItem" title="Logout" id="mkN-Yf-qfm">
+                                    <navigationItem title="My Movies" largeTitleDisplayMode="always" id="sYT-c0-6PL">
+                                        <barButtonItem key="rightBarButtonItem" title="Logout" style="plain" id="mkN-Yf-qfm">
                                             <color key="tintColor" red="0.13507851451760308" green="0.13501941004019394" blue="0.32816465736040612" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <connections>
                                                 <action selector="logout:" destination="Wo9-Un-R8I" id="7CQ-3B-wEU"/>
